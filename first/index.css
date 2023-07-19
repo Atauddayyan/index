@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.back{
+    background-image: url(img-1.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+nav{
+     text-transform: capitalize;
+     text-align: center;
+     padding: 10px;
+   
+    
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-flex;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+    color: rgb(247, 3, 3);
+}
+nav ul li:hover{
+    border-left: 2px solid green;
+    border-top: 2px solid green;
+
+}
+
+.input h1{
+    text-align: center;
+    padding-top: 16%;
+    color: green;
+    font-size: 30px;
+}
+.input a p{
+    text-decoration: none;
+    text-align: center;
+    color: aquamarine;
+    border: 1px solid red;
+    display: block;
+    width: 100px;
+    margin-left: 46%;
+    margin-top: 3%;
+    padding: 5px;
+    cursor: pointer; 
+    
+}
+input p:hover{
+     
+}
